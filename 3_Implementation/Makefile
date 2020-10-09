@@ -10,7 +10,7 @@ src/dvdstoreoperations.c\
 
 # All test source files
 TEST_SRC = srcdvdstoreoperations.c
-test/test_dvdstore.c
+test/test_DvdStore.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
