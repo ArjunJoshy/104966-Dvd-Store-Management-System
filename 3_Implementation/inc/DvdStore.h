@@ -37,9 +37,7 @@ void searchstaff() ;
 int chechid(int) ;
 void viewstaff(void)  ;
 int t(void) ; 
-void issuerecord();
-void closeapplication(void);
-void loaderanim();
+
   
 struct meroDate
 
