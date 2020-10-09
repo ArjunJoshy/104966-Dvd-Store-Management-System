@@ -14,7 +14,7 @@ void returnfunc(void) ;
 void searchstaff() ;
 int chechid(int) ;
 void viewstaff(void)  ;
-int t(void) 
+int t(void) ; 
   
 struct meroDate
 
