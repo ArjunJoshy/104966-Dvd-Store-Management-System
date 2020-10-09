@@ -1,4 +1,4 @@
-Input - Output Requirements
+Input - Output Requirements:
 All the fields such as DVD are validated and do not take invalid values to get proper form of output.
 The software also takes the details of  the DVD, to make stock as an input and also generate the record of the DVD as an output.
 Avoiding errors in data entry and modification.
@@ -20,11 +20,14 @@ IDE : CodeBlocks , Dev C++ or any suitable IDE.
 Compiler Used: MingGW compiler, GCC compiler 
 
 
-Non Functional Requirements
+Non Functional Requirements:
 Efficiency requirement: When this system will be implemented admin can easily access the record.
 Reliability requirement: The system should accurately perform entry of new cd’s, deletion,modification,search, view.
 Usability requirement:System is designed for a user friendly environment so that the admin can perform various tasks easily and in an efficient way.
-Implementation requirement: The whole project is designed in ‘C’ Programming language and different variables and strings have been used for the development of this project. It’s easy to operate and understand by users. There’s no any error and warning contents in the project and the design is simple and the user won’t find it difficult to use and navigate. Functional Requirements
+Implementation requirement: The whole project is designed in ‘C’ Programming language and different variables and strings have been used for the development of this project. It’s easy to operate and understand by users. There’s no any error and warning contents in the project and the design is simple and the user won’t find it difficult to use and navigate.
+
+
+Functional Requirements:
 
 Admin Login:
 Feature: The feature used by the admin to login into the system. They are required to enter the password to enter the system.Password will be verified and if it is invalid he/she cannot enter the system.
