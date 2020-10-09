@@ -45,4 +45,4 @@ struct staff a;
 
 
 
-#endif \\DvdStore_H_INCLUDED
+#endif //DvdStore_H_INCLUDED
