@@ -66,7 +66,7 @@
 ### Add DVD record
  
 #### Feature:
-*Helps to add new records to the system with their details.
+* Helps to add new records to the system with their details.
 
 #### Functional Requirement
 
