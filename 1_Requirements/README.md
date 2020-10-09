@@ -83,9 +83,9 @@
 
 #### Functional Requirement:
 
-*System must be able to delete a record when demanded  by giving its id or name.
+* System must be able to delete a record when demanded  by giving its id or name.
 
-*System should not delete other records.
+* System should not delete other records.
 
 ### Search DVD record
 
