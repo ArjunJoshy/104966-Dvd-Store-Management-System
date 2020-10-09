@@ -39,9 +39,10 @@ struct meroDate issued;
 struct meroDate duedate;
 
 };
+struct staff a;
 
 
 
 
 
-#endif
+#endif \\DvdStore_H_INCLUDED
