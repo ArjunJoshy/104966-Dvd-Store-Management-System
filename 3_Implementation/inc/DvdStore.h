@@ -8,6 +8,21 @@
 #include<ctype.h>                   
 #include<dos.h>                    
 #include<time.h>
+#define RETURNTIME 15
+
+char catagories[][15]={"Movies","Series","Musics","Animated","Adults"};
+FILE *fp,*ft,*fs;
+COORD coord = {0, 0};
+
+int s;
+
+char findstaff;
+
+char password[10]={"pass"};
+
+
+
+
 
 void addstaff(void) ;
 int checkid(int t) ;
@@ -22,6 +37,9 @@ void searchstaff() ;
 int chechid(int) ;
 void viewstaff(void)  ;
 int t(void) ; 
+void issuerecord();
+void closeapplication(void);
+void loaderanim();
   
 struct meroDate
 
