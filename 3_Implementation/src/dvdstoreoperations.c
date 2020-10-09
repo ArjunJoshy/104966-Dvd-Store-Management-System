@@ -221,11 +221,11 @@ printf("\tProject in C");
 
 gotoxy(16,5);
 
-printf("\tis brought to you by");
+printf("\tis done  by");
 
 gotoxy(16,7);
 
-printf("\tCODE-PROJECTS");
+printf("\tArjun Joshy \n  \t Step-In 104966");
 
 gotoxy(16,8);
 
