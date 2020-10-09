@@ -1,6 +1,13 @@
 #ifndef DvdStore_H_INCLUDED
 #define DvdStore_H_INCLUDED
 
+#include<stdio.h>
+#include<conio.h>
+#include <stdlib.h>
+#include<string.h>                 
+#include<ctype.h>                   
+#include<dos.h>                    
+#include<time.h>
 
 void addstaff(void) ;
 int checkid(int t) ;
