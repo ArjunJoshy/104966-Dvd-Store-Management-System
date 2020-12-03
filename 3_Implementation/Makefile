@@ -26,7 +26,7 @@ PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 $(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run clean test  doc all
+.PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
@@ -37,7 +37,7 @@ run:$(PROJECT_NAME)
 
 # Document the code using Doxygen
 doc:
-	#make -C ./documentation
+	make -C ./documentation
 
 # Build and run the unit tests
 test:$(BUILD)
@@ -46,7 +46,7 @@ test:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	#rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):
