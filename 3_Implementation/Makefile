@@ -9,8 +9,8 @@ SRC = main.c\
 src/dvdstoreoperations.c\
 
 # All test source files
-TEST_SRC = srcdvdstoreoperations.c
-test/test_DvdStore.c
+TEST_SRC = src/dvdstoreoperations.c\
+test/test_DvdStore.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -20,7 +20,7 @@ INC	= -Iinc
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
-#DOCUMENTATION_OUTPUT = documentation/html
+DOCUMENTATION_OUTPUT = documentation/html
 
 # Default target built
 $(PROJECT_NAME):all
