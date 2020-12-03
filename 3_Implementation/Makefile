@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Dvd Store Management System
+PROJECT_NAME = Dvd
 
 # Output directory
 BUILD = build
